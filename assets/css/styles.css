@@ -4,6 +4,21 @@
     box-sizing: border-box;
 }
 :root{
-    
+    --accent-color: aqua;
+    --text-color: black;
+    --background-color: white;
+}
+
+body{
+    font-family:;
+
+}
+
+a:hover, 
+button:hover{
+    color: var(--accent-color);
+}
+.contact:focus{
+    color: var(--accent-color);
 
 }
